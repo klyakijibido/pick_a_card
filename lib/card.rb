@@ -9,6 +9,6 @@ class Card
   end
 
   def to_s
-    @joker ? 'Joker' : "#{value}#{suit[0].downcase}"
+    @joker ? 'Joker' : "#{@value}#{@suit[0].downcase}"
   end
 end
